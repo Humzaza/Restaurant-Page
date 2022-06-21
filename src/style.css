@@ -1,0 +1,51 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+#content {
+    display: grid;
+    height: 100%;
+    grid-template-rows: 0.5fr 0.5fr 6fr 0.3fr;
+}
+
+.mainContent {
+    background-color: blue;
+
+}
+
+header {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > h1 {
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 40px;
+}
+.nav > button {
+    border-radius: 7px 7px 0 0;
+    padding: 10px;
+    width: 150px;    
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+
+}
+
+.info {
+
+}
