@@ -13,14 +13,67 @@ html, body {
 #content {
     display: grid;
     height: 100%;
-    grid-template-rows: 0.5fr 0.5fr 9fr 0.4fr;
+    grid-template-rows: 0.5fr 0.5fr 9fr 0.5fr;
     color: white;
     font-family: cursive;
 }
 
+
+
+
+
+
+
+
 .mainContent {
  background-color: rgb(150, 82, 82);
+
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ grid-template-rows: repeat(3, 1fr);
+ gap: 20px;
+ padding: 10px;
 }
+
+.imgSand {
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+.menuItems {
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(117, 65, 65);
+    gap: 10px;
+}
+h3 {
+    padding-top: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+.menuPicInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 0 10px 10px 10px;
+    background-color: rgb(117, 65, 65);
+    gap: 10px;
+}
+
+.menuInfo {
+    background-color: rgb(150, 82, 82);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
 
 .intro {
     height: 60%;

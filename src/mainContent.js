@@ -8,7 +8,6 @@ const mainContent = () => {
     mainContent.className = 'mainContent';
     homePage(mainContent, false);
     b1.addEventListener('click', (e) => {
-        console.log(e.target.className);
         clearContent();
         homePage(mainContent, true);
     });
@@ -23,7 +22,6 @@ const mainContent = () => {
 
 const homePage = (mainContent, input) => {
     let Content = document.getElementById('content');
-    console.log(mainContent);
     let intro = document.createElement('div');
     intro.className = 'intro';
     let h1 = document.createElement('h1');
