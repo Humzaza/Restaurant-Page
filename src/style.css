@@ -1,13 +1,21 @@
 html, body {
     margin: 0;
-    
 }
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url('./Pacifico-Regular.ttf') format('ttf'),
+      url('./RobotoMono-VariableFont_wght.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+  }
 
 #content {
     display: grid;
     height: 100%;
     grid-template-rows: 0.5fr 0.5fr 9fr 0.4fr;
     color: white;
+    font-family: cursive;
 }
 
 .mainContent {
@@ -34,11 +42,11 @@ html, body {
 }
 
 .reviews {
-    padding: 15px;
+    padding: 15px 15px 15px 15px;
     height: 40%;
     background-color: rgb(150, 82, 82);
     display: grid;
-    grid-template-rows: 0.3fr 4fr;
+    grid-template-rows: 0.1fr 3fr;
 }
 
 .reviews > h3 {
@@ -54,15 +62,21 @@ html, body {
 }
 
 .revDivs > div {
-    background-color: black;
+    background-color: rgb(109, 58, 58);
     width: 50%;
     height: 60%;
     border-radius: 20px;
     padding: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
+
+.nameR {
+    margin: 10px 0 15px 0;
+}
+
+.reviewOne {
+    text-align: center;
+}
+
 
 header {
     background-color: rgb(117, 65, 65);
@@ -71,10 +85,10 @@ header {
     align-items: center;
     color: white;
     border-radius: 5px;
+    
 }
 
-header > h1 {
-    
+.name {
 }
 
 .nav {
