@@ -1,5 +1,6 @@
 import './style.css';
 import menuPage from './menupage';
+import contactPage from './contactPage';
 
 const mainContent = () => {
     let b1 = document.querySelector('.home');
@@ -21,6 +22,13 @@ const mainContent = () => {
         b2.style.backgroundColor = 'rgb(108, 57, 57)';
         b3.style.backgroundColor = 'rgb(76, 39, 39)';
         menuPage();
+    });
+    b3.addEventListener('click', () => {
+        clearContent();
+        b1.style.backgroundColor = 'rgb(76, 39, 39)';
+        b2.style.backgroundColor = 'rgb(76, 39, 39)';
+        b3.style.backgroundColor = 'rgb(108, 57, 57)';
+        contactPage();
     });
 };
 

@@ -161,7 +161,47 @@ header {
     color: white;
     border: 2px solid white;
     border-bottom: 0px;
+}
 
+.contact {
+    height: 98%;
+    width: 98%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact > h1 {
+    text-align: center;
+}
+
+.contactInfo {
+    background-color: rgb(117, 65, 65);
+    width: 60%;
+    height: 30%;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+.locationInfo, .OnlineInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.locationImg {
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+.locationP {
+    background-color: rgb(150, 82, 82);
+    padding: 10px;
+    border-radius: 10px;
 }
 
 footer {
