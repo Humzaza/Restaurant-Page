@@ -27,19 +27,20 @@ html, body {
 
 .mainContent {
  background-color: rgb(150, 82, 82);
-
+/* 
  display: grid;
  grid-template-columns: repeat(3, 1fr);
  grid-template-rows: repeat(3, 1fr);
  gap: 20px;
- padding: 10px;
+ padding: 10px; */
 }
 
-.imgSand {
+ .imgSand {
     height: 200px;
     width: 200px;
     border-radius: 20px;
 }
+
 .menuItems {
     border-radius: 20px;
     padding: 10px;
@@ -76,6 +77,7 @@ h3 {
 
 
 .intro {
+    margin-top: 2px;
     height: 60%;
     background-color: aliceblue;
     background-image: url('https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80');

@@ -1,4 +1,5 @@
 import './style.css';
+import menuPage from './menupage';
 
 const mainContent = () => {
     let b1 = document.querySelector('.home');
@@ -13,7 +14,7 @@ const mainContent = () => {
     });
     b2.addEventListener('click', () => {
         clearContent();
-        menu();
+        menuPage();
     });
 };
 

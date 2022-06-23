@@ -4,7 +4,7 @@ import footer from './footer.js';
 import nav from './nav';
 import mainContent from './mainContent';
 
-// header();
-// nav();
-// mainContent();
-// footer();
+header();
+nav();
+mainContent();
+footer();
