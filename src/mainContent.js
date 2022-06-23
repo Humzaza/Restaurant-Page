@@ -10,10 +10,16 @@ const mainContent = () => {
     homePage(mainContent, false);
     b1.addEventListener('click', (e) => {
         clearContent();
+        b1.style.backgroundColor = 'rgb(108, 57, 57)';
+        b2.style.backgroundColor = 'rgb(76, 39, 39)';
+        b3.style.backgroundColor = 'rgb(76, 39, 39)';
         homePage(mainContent, true);
     });
     b2.addEventListener('click', () => {
         clearContent();
+        b1.style.backgroundColor = 'rgb(76, 39, 39)';
+        b2.style.backgroundColor = 'rgb(108, 57, 57)';
+        b3.style.backgroundColor = 'rgb(76, 39, 39)';
         menuPage();
     });
 };
@@ -87,16 +93,10 @@ const homePage = (mainContent, input) => {
 
 };
 
-const menu = () => {
-    let Content = document.querySelector('.mainContent');
-    let mainContent = document.createElement('div');
-    mainContent.textContent = 'dsafsdfasfsafsa';
-    Content.appendChild(mainContent);
-};
-
 const clearContent = () => {
     let Content = document.querySelector('.mainContent');
     console.log(Content);
+    Content.removeAttribute('style');
     Content.innerHTML = '';
 };
 
